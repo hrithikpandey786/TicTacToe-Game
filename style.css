@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    font-family: 'Indie Flower';
+    margin-bottom: 10px;
+    font-size: 5vh;
+    color: #BF3131;
+}
+
+body{
+    background-color: #DCF2F1;
+}
+
+.hide{
+    display:none;
+}
+
+.container{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 8vmin;
+    color: #FF9800;
+    background-color: #DCF2F1;
+    border: none;
+    border-radius: 5px;
+}
+
+.box1{
+    box-shadow: 20px 15px 11px #356186;
+}
+
+.box2{
+     box-shadow: -12px 15px 11px #356186; 
+}
+
+.box3{
+     box-shadow: -12px 15px 11px #356186; 
+}
+
+.box4{
+    box-shadow: 20px 0px 11px #356186;
+}
+
+.box5{
+    box-shadow: -12px 0px 11px #356186;
+}
+
+.box6{
+    box-shadow: -12px 0px 11px #356186;
+}
+
+.box7{
+    box-shadow: 17px -13px 11px #356186;
+}
+
+.box8{
+    box-shadow: -17px -13px 11px #356186;
+}
+
+.box9{
+    box-shadow: -17px -13px 11px #356186;
+}
+
+.rst-btn{
+    display: flex;
+    justify-content: center;
+}
+
+#rst, #newGame{
+    background-color: #191913;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 3vh;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.result{
+    height: 50vh;
+    display: flex;          
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#mssg{
+    font-size: 12vh;
+    color: #356186;
+    font-family: 'Indie Flower';
+}
+
+
